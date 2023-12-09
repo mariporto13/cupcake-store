@@ -1,18 +1,8 @@
 // slider
 let sliderarr = [
-    "https://m.media-amazon.com/images/I/619rl+QqjwL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/61x-Ik4m6pL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/61mWRsVO4oL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/71jhnI7aVJL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/613-gA49v1L._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/71DmP8NHXlL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/61gPOiG6YiL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/71LbHsact9L._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/81cP1IAxf-L._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/619rl+QqjwL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/61l4i7aoY2L._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/8160RuRhSUL._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/81aKds7BOeL._SX3000_.jpg"
+    "https://www.lolascupcakes.co.uk/image/tmp66C9.png?Version=133463437345915423",
+    "https://www.lolascupcakes.co.uk/image/tmpE6ED.png?Version=133452910076315327",
+    "https://www.lolascupcakes.co.uk/image/tmp495C.jpg?Version=133446199964075316"
     ];
 
     let name = localStorage.getItem("name");
@@ -41,7 +31,7 @@ let sliderarr = [
     let filter = document.getElementById("category");
 
     filter.addEventListener("change",()=>{
-        window.location.replace("./products.html");
+        window.location.replace("../frontend/products.html");
     });
     /*
     // let & get part
