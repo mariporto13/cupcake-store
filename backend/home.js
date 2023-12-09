@@ -1,8 +1,7 @@
 // slider
 let sliderarr = [
     "https://www.lolascupcakes.co.uk/image/tmp66C9.png?Version=133463437345915423",
-    "https://www.lolascupcakes.co.uk/image/tmpE6ED.png?Version=133452910076315327",
-    "https://www.lolascupcakes.co.uk/image/tmp495C.jpg?Version=133446199964075316"
+    "https://www.lolascupcakes.co.uk/image/tmpE6ED.png?Version=133452910076315327"
     ];
 
     let name = localStorage.getItem("name");
