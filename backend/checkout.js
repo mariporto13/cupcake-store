@@ -52,7 +52,7 @@ addform.addEventListener("submit",(ele)=>{
     // console.log();
 
 continues.innerText = "Confirm order";
-if(continues.innerText == "confirm order"){
+if(continues.innerText == "Confirm order"){
 continues.addEventListener("click",()=>{
         // window.location.replace("../frontend/home.html");
         body.innerHTML = `<div id="confirmation">
