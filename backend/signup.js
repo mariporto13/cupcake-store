@@ -9,8 +9,8 @@ cxdetails.addEventListener("submit",(event)=>{
     cxpassword: document.getElementById("password").value, 
     };
     cx.push(cxobj);
-    if(cxobj.cxnumber.length !==10){
-        alert("mobile no should have 10 digits");
+    if(cxobj.cxnumber.length !==11){
+        alert("mobile no should have 11 digits, e.g. (00)00000-0000");
     }
     else if(passwordcheck(cxobj.cxpassword)){
         alert("password should contain a special character");
