@@ -21,15 +21,15 @@ myform.addEventListener("submit",(event)=>{
             alert("no account found")
             wrong.innerHTML =` 
                     <div id="rong">
-                       <img src="./images/warn.png" alt="">
+                       <img src="./database/images/warn.png" alt="">
                        <div>
                            <h4>There was a problem</h4>
-                           <p>No users found <a href="./index.html">Retry</a></p>
+                           <p>No users found <a href="./frontend/index.html">Retry</a></p>
                        </div>
                     </div>`;
         }
         if (details[0]=="admin@pit2.com" && details[details.length-1]=="pit@123"){
-            window.location.replace("./admin.html");
+            window.location.replace("./frontend/admin.html");
         }
         for(let i = 0;i<cxdata.length;i++){
             // console.log(details);
@@ -37,15 +37,15 @@ myform.addEventListener("submit",(event)=>{
                 hello = cxdata[i].cxname;
                 localStorage.setItem("name",hello);
                 alert("succesfully logeed in");
-                window.location.replace("./home.html");
+                window.location.replace("./frontend/home.html");
             }
             else{
                wrong.innerHTML =` 
             <div id="rong">
-               <img src="./images/warn.png" alt="">
+               <img src="./database/images/warn.png" alt="">
                <div>
                    <h4>There was a problem</h4>
-                   <p>No users found <a href="./index.html">Retry</a></p>
+                   <p>No users found <a href="./frontend/index.html">Retry</a></p>
                </div>
             </div>`;
             }
