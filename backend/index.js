@@ -28,7 +28,7 @@ myform.addEventListener("submit",(event)=>{
                        </div>
                     </div>`;
         }
-        if (details[0]=="admin@amazecart.in" && details[details.length-1]=="Noida@123"){
+        if (details[0]=="admin@pit2.com" && details[details.length-1]=="pit@123"){
             window.location.replace("./admin.html");
         }
         for(let i = 0;i<cxdata.length;i++){
