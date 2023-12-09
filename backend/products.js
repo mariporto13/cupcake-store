@@ -3,7 +3,7 @@ let filter = document.getElementById("category");
 let prot = JSON.parse(localStorage.getItem("products"));
 console.log(prot);
 // fetching data 
-fetch("https://63f4b6953f99f5855db5af35.mockapi.io/produ")
+fetch("https://6573e83ef941bda3f2af33b5.mockapi.io/api/v1/products")
 .then((res)=>{
     return res.json();
 })
