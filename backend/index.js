@@ -29,6 +29,7 @@ myform.addEventListener("submit",(event)=>{
                     </div>`;
         }
         if (details[0]=="admin@pit2.com" && details[details.length-1]=="pit@123"){
+            alert("succesfully logged in");
             window.location.replace("../frontend/admin.html");
         }
         for(let i = 0;i<cxdata.length;i++){
@@ -36,7 +37,7 @@ myform.addEventListener("submit",(event)=>{
             if((details[0]===cxdata[i].cxemail || details[0]==cxdata[i].cxnumber) &&    details[details.length-1]===cxdata[i].cxpassword){
                 hello = cxdata[i].cxname;
                 localStorage.setItem("name",hello);
-                alert("succesfully logeed in");
+                alert("succesfully logged in");
                 window.location.replace("../frontend/home.html");
             }
             else{
