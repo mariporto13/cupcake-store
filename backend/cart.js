@@ -6,8 +6,8 @@ let only_prod = document.getElementById("only_prod");
 products(cartarray);
 // if(cartarray==[]){
 //     product.innerHTML = `<div id="null">
-//     <h2>Your Amazekart is empty</h2>
-//     <a href="./products.html"><button>Go back to products page</button></a>
+//     <h2>Your cart is empty</h2>
+//     <a href="../frontend/products.html"><button>Go back to products page</button></a>
 //     <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt="Cart is empty">
 // </div>`;
 // }
@@ -15,8 +15,8 @@ function products(data){
     console.log(data);
     if(data === null || data.length === 0){
         product.innerHTML = `<div id="null">
-        <h2>Your Amazekart is empty</h2>
-        <a href="./products.html"><button>Go back to products page</button></a>
+        <h2>Your cart is empty</h2>
+        <a href="../frontend/products.html"><button>Go back to products page</button></a>
         <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt="Cart is empty">
     </div>`;
     }
@@ -72,7 +72,7 @@ function products(data){
         });
         addbtn.addEventListener("click",()=>{
             localStorage.setItem("buy",JSON.stringify(data[i]));
-            window.location.replace("./checkout.html")
+            window.location.replace("../frontend/checkout.html")
         });
         textdiv.append(title,description,category,price,span,btndiv)
         imgdiv.append(image);
