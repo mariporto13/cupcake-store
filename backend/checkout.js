@@ -36,20 +36,20 @@ addform.addEventListener("submit",(ele)=>{
     // console.log(address);
 
     addform.innerHTML = `<div id="html">
-        <input type="radio"  name="payment" value="Pay_debit_card" class="msg">
-        <label for="Pay_debit_card">Pay with Credit Card (on Delivery)</label>
+    <input type="radio"  name="payment" value="Pay_debit_card" class="msg">
+    <label for="Pay_debit_card">Pay with Credit Card (on Delivery)</label>
     </div>
     <div id="css">
-        <input type="radio"  name="payment" class="msg" value="Net_Banking">
-        <label for="Net_Banking">Pay with Debit Card (on Delivery)</label><br>
+    <input type="radio"  name="payment" class="msg" value="Net_Banking">
+    <label for="Net_Banking">Pay with Debit Card (on Delivery)</label><br>
     </div>
     <div id="javascript">
-        <input type="radio"  name="payment" class="msg" value="cash">
-        <label for="cash">Pay with Cash (on Delivery)</label><br>
+    <input type="radio"  name="payment" class="msg" value="cash">
+    <label for="cash">Pay with Cash (on Delivery)</label><br>
     </div>
-<button id="continue">Use this payment method<button>`;  
-let continues = document.getElementById("continue");
-// console.log();
+    <button id="continue">Use this payment method<button>`;  
+    let continues = document.getElementById("continue");
+    // console.log();
 
 continues.innerText = "Confirm order";
 if(continues.innerText == "confirm order"){
