@@ -71,7 +71,7 @@ function products(data){
         description.innerText = data[i].description;
         id.textContent = data[i].id;
         category.textContent = `Category - ${data[i].category}`;
-        price.textContent = `₹ ${data[i].price}`;
+        price.textContent = `$ ${data[i].price}`;
         rating.innerHTML = `${data[i].rating.rate} ★`;
         ratecount.innerHTML = `(${data[i].rating.count})`;
         only_prod.append(product);
