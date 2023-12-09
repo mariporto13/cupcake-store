@@ -54,13 +54,13 @@ let continues = document.getElementById("continue");
 continues.innerText = "confirm order";
 if(continues.innerText == "confirm order"){
 continues.addEventListener("click",()=>{
-        // window.location.replace("./home.html");
+        // window.location.replace("../frontend/home.html");
         body.innerHTML = `<div id="confirmation">
-        <img src="./images/Checklist-Logo.png" alt="">
+        <img src="../database/images/Checklist-Logo.png" alt="">
         <h2>order confirmed!</h2>
         <p>your order has been placed successfully !!</p>
         <p>get delivery by tommorow 9am</p>
-        <a href="./products.html"><button>Continue shopping</button></a>
+        <a href="../frontend/products.html"><button>Continue shopping</button></a>
     </div>`;
 let add_data = document.getElementsByClassName("msg").value;
     console.log(add_data.value);
