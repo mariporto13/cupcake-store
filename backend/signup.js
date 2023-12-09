@@ -16,7 +16,7 @@ cxdetails.addEventListener("submit",(event)=>{
         alert("password should contain a special character");
     }
     else if(cxobj.cxpassword.length<8){
-        alert("password should contain atleast 8 letters");
+        alert("password should contain at least 8 letters");
     }
     else{
         alert("Account created succesfully")
