@@ -1,5 +1,5 @@
 # cupcake-store
 
-admin credentials - `admin@pit2.com` password - `pit@123`
+admin login - `admin@pit2.com` password - `pit@123`
 
-access app here: [login page](https://mariporto13.github.io/cupcake-store/frontend/index.html)
+accessar o app: [login page](https://mariporto13.github.io/cupcake-store/frontend/index.html)
