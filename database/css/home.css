@@ -1,0 +1,415 @@
+
+        @import url('https://fonts.cdnfonts.com/css/amazon-ember');
+        *{
+            margin:0;
+            padding: 0%;
+            font-family: 'Amazon Ember', sans-serif;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #e3e6e6;
+        }
+
+        /* header here */
+        #nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: #292929;
+    /* justify-content: space; */
+}
+#nav>div{
+    display: flex;
+    /*  */
+}
+#nav>div>img{
+    height: 3vh;
+    margin-left: 1vw;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#location>span{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5vh;
+    margin-right: auto;
+    width: 100%;
+}
+#loc{
+    font-family: 'Amazon Ember', sans-serif;
+}
+#loc{
+    display: flex;
+}
+#loc>img{
+    display: flex;
+    margin-top: auto;
+    height: 2vh;
+    margin-top: auto;
+    margin-bottom: 0.5vh;
+    margin-right: 0.3vw;
+    
+}
+#location{
+    width: 9vw;
+    /* border: 2px solid rebeccapurple; */
+}
+#location>div{
+    font-size: 1.2vh;
+}
+/* #searchobox{
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    
+*/
+form{
+    width: 60%;
+    display: flex;
+    border: none;
+    justify-content: center;
+    height: 4.5vh;
+    margin-left: 1vw;
+    margin-right: 20px;
+    /* border: 2px solid rebeccapurple; */
+}
+#search{
+    width: 90%;
+    padding-left: 1%;
+    /* border: none; */
+}
+#hello{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+#hello>a{
+    color: white;
+    font-family: 'Amazon Ember', Arial , sans-serif;
+}
+#hello>a>span{
+    display: flex;
+    font-weight: bold;
+    margin-right: 1vw;
+    font-size: 1.5vh;
+}
+form>select{
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Amazon Ember', sans-serif;
+    text-align: center;
+}
+#schbtn{
+    border-top-right-radius: 5px;
+    border: none;
+    width: 50px;
+    background-color: #f7ca00;
+    font-size: 25px;
+    border-bottom-right-radius: 5px;
+}
+
+        /* main here */
+
+        main{
+              min-height: calc( 200vh  + 37px - 266px);
+        }
+        #slider{
+    display: flex;
+    margin: auto;
+    /* justify-content: space-between; */
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+ #slider>img{
+    width: 100%;
+    /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); */
+      /* -webkit-mask-image: linear-gradient(black, transparent); */
+  /* mask-image: linear-gradient(black, transparent); */
+}
+
+#left{
+    position: absolute;
+    height: 40%;
+    cursor: pointer;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    top: 0%;
+    right: 98%;
+
+}
+#right{
+    position: absolute;
+    height: 40%;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    top: 0%;
+    left: 98%;
+}
+#left:hover,#right:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+}
+#right>i{
+    font-size: 30px;
+}
+#left>i{
+    font-size: 30px;
+}
+#wrap{
+    /* justify-content: space-between; */
+    /* width: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.prod{
+    width: 78%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2%;
+    row-gap: 5%;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    position: absolute;
+    justify-content: space-evenly;
+    top: 40%;
+    /* grid-template-rows: (1,1fr); */
+}
+.prod>a>div{
+    /* width: 23%; */
+    color: black;
+    background-color: white;
+}
+#one_p{
+    background-color: white;
+}
+#one_p>h2{
+    padding: 20px;
+}
+.crod>div{
+    width: 23%;
+    background-color: white;
+}
+.four_prod{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    /* gap: 10px; */
+}
+.prod>a>div>h2{
+    font-size: 1.5em;
+    padding: 20px;
+}
+.crod>div>h2{
+    font-size: 1.5em;
+    margin: 20px;
+}
+.four_prod>div>p{
+    font-size: 0.7em;
+}
+.four_prod>div{
+    padding: 20px;
+}
+.four_prod>div>img{
+    width: 100%;
+}
+.one_prod>img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+.one_prod>a{
+    margin-left: 20px;
+    font-size: 1em;
+}
+/* footer */
+#first{
+    display: flex;
+    /* width: 100%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    background-color: #232f3e;
+}
+#first>div{
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+}
+#first>div>div{
+    margin-right: 80px;
+}
+#first>div>div>div{
+    color: white;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    margin-bottom: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#first li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#first li a{
+    color: #d0d1d2;
+    font-size: 15px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+#first li a:hover{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+#second{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #292929;
+}
+#second >a{
+    color: white;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+@media only screen and (max-width: 1350px) and (min-width:900px){
+    .prod{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2%;
+        row-gap: 5%;
+    }
+    main{
+        min-height: calc( 250vh  + 37px - 266px);
+        
+    }
+    
+}
+@media only screen and (max-width: 899px) and (min-width:500px){
+    .prod{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2%;
+        row-gap: 3%;
+    }
+    main{
+              min-height: calc( 350vh  + 37px - 266px);
+        
+        }
+        #nav{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #nav>:nth-child(1){
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #location{
+            width: 50vw;
+            /* margin-left: auto; */
+            margin: 0px;
+            font-size: 2px;
+        }
+        #loc{
+            margin-left: 20px;
+        }
+        #hello{
+            width: 90%;
+            display: flex;
+            justify-content:space-around;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+        form{
+            width: 90%;
+        }
+        #hello>a{
+            /* margin-right: 20px; */
+            font-size: 10px;
+        }
+        #hello>a>span{
+            font-size: 12px;
+        }
+
+        /* footer css here */
+        #first>div{
+            display: flex;
+            flex-direction: column;
+            padding-right: 10px;
+        }
+
+}
+@media only screen and (max-width: 499px) {
+    .prod{
+        display: grid;
+        /* position: relative; */
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 2%;
+        row-gap: 1%;
+    }
+    main{
+              min-height: calc( 650vh  + 37px - 266px);
+        
+        }
+        #nav{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #nav>:nth-child(1){
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #location{
+            width: 50vw;
+            /* margin-left: auto; */
+            margin: 0px;
+            font-size: 2px;
+        }
+        #loc{
+            margin-left: 20px;
+        }
+        #hello{
+            width: 90%;
+            display: flex;
+            justify-content:space-around;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+        form{
+            width: 90%;
+        }
+        #hello>a{
+            /* margin-right: 20px; */
+            font-size: 10px;
+        }
+        #hello>a>span{
+            font-size: 12px;
+        }
+        #first>div{
+            display: flex;
+            flex-direction: column;
+            padding-right: 10px;
+        }
+    
+}
