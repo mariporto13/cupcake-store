@@ -6,7 +6,7 @@ let totalvalue = document.getElementById("totalvalue");
 let cartdata = JSON.parse(localStorage.getItem("cartdata"));
 
 itmvalue.innerText = `$${cartdata[0].price}`;
-totalvalue.innerText = `$${cartdata[0].price + 70}`;
+totalvalue.innerText = `$${cartdata[0].price}`;
 
 console.log(cartdata[0]);
 // form addeventlistner
